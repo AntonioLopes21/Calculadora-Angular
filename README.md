@@ -1,3 +1,1 @@
-Link para testes:
-
-https://antoniolopes21.github.io/Calculadora-Angular/
+https://calculadora-angular-theta.vercel.app/
