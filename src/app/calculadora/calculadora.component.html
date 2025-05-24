@@ -1,0 +1,44 @@
+<main>
+    <div class="corpo">
+        <div class="tela">
+            <div class="tela-cima">
+                <h1>{{ value1 }}</h1>
+                <h1>{{ operacion }}</h1>
+                <h1>{{ value2 }}</h1>
+            </div>
+            <div class="tela-baixo">
+                <h1>{{ result }}</h1>
+            </div>
+
+        </div>
+        <div class="botoes">
+            <div class="botoes-cima">
+                <button (click)="digitarValor0()">0</button>
+                <button (click)="digitarValor1()">1</button>
+                <button (click)="digitarValor2()">2</button>
+                <button (click)="somar()">+</button>
+            </div>
+            <div class="botoes-meio">
+                <button (click)="digitarValor3()">3</button>
+                <button (click)="digitarValor4()">4</button>
+                <button (click)="digitarValor5()">5</button>
+                <button (click)="subtrair()">-</button>
+            </div>
+            <div class="botoes-baixo">
+                <button (click)="digitarValor6()">6</button>
+                <button (click)="digitarValor7()">7</button>
+                <button (click)="digitarValor8()">8</button>
+                <button (click)="multiplicar()">x</button>
+            </div>
+            <div class="botoes-mais-baixo">
+                <button (click)="digitarValor9()">9</button>
+                <button>,</button>
+                <button (click)="obterResultado()">=</button>
+                <button (click)="dividir()">/</button>
+            </div>
+            <div class="apagar">
+                <button (click)="apagarTudo()">APAGAR</button>
+            </div>
+        </div>
+    </div>
+</main>
